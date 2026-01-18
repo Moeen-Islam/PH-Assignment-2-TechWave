@@ -316,15 +316,15 @@ header .nav-item ul li a{
 }
 .featured-section .featured-container{
     max-width: 1200px;
-    
     display: flex;
     justify-content: space-between;
     margin: auto;
+    margin-bottom: 120px;
 }
 .featured-container .featured-card{
     width: 380px;
     height: 440px;
-    border-radius: 20px;
+    border-radius: 30px;
     overflow: hidden;
     background: rgba(53, 17, 101, 0.4);
 }
@@ -355,3 +355,64 @@ header .nav-item ul li a{
 }
 
 /* Features Section End */
+/* Host section Start */
+.host-section h3{
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.host-container{
+    margin: auto;
+    max-width: 1200px;
+    background: rgba(53, 17, 101, 0.4);
+    border-radius: 30px;
+    height: auto;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.host-container .host-img{
+    width: 200px;
+    height: 200px;
+}
+
+.host-container .host-details h4{
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    color: #ffffff;
+}
+.host-container .host-details p{
+    font-size: 16px;
+    line-height: 24px;
+    opacity: 60%;
+    color: #ffffff;
+    margin-bottom: 16px;
+}
+
+.host-container .host-media{
+    display: flex;
+    gap: 10px;
+}
+.host-media .img-wrapper{
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid rgba(83, 60, 114, 1);
+    border-radius: 50%;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: flex;
+    align-items: center;      
+    justify-content: center;
+}
+.host-container .host-media .img-wrapper img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+   
+}
