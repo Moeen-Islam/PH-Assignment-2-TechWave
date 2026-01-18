@@ -31,6 +31,16 @@ body{
     background: linear-gradient(15deg,#F7E93F 20%,#FB09B4 55%,#9100F8 84%);
 }
 
+.hero-normal-btn{
+    font-size: 16px;
+    font-size: 600;
+    padding: 12px 20px;
+    color: #00FF88;
+    border: 1px solid #00FF88;
+    background: transparent;
+    border-radius: 50px;
+}
+
 /* Header Section Start */
 header{
     display: flex;
@@ -68,8 +78,85 @@ header .nav-item ul li a{
 
 /* Header Ends */
 
+/* Hero Section Start */
+.hero-container{
+    min-height: 760px;
+    background: url(./assets/hero-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.hero-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.img-group{
+    margin-top: 100px;
+    position: relative;
+    width: 350px;
+    height: 350px;
+    margin-bottom: 40px;
+}
+.main-img{
+    width: 100%;
+    height: 100%;
+}
+.center-img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.badge{
+    position: absolute;
+    top: 12px;
+    right: 25px;
+    padding: 8px 16px;
+    background-color: #00FF88;
+    color: black;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    border: 1px solid black;
+    box-shadow: 0 0 20px rgba(0,255,136, 0.6);
+}
+
+.hero-box h2{
+    font-size: 60px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 8px;
+}
+.hero-box p{
+    font-size: 16px;
+    font-weight: 300;
+    color: #ffffff;
+    margin-bottom: 24px;
+}
+
+.hero-box .hero-btn{
+    display: flex;
+    gap: 8px;
+}
+
+.btn-herosec{
+    display: inline-flex;
+    align-items: center;     
+    justify-content: center; 
+    gap: 5px;
+}
+
+.hero-icon-btn{
+    width: 20px;
+    height: auto;
+    display: block;
+}
 
 
+/* Hero Section end */
 
 
 
