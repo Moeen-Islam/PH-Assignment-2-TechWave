@@ -135,6 +135,7 @@ header .nav-item ul li a{
     font-weight: 300;
     color: #ffffff;
     margin-bottom: 24px;
+    opacity: 70%;
 }
 
 .hero-box .hero-btn{
@@ -158,6 +159,68 @@ header .nav-item ul li a{
 
 /* Hero Section end */
 
+/* About Section Start */
+.about-section{
+    min-height: 650px;
+    background-color: #1A0B2E;
+}
+.about-section .about-area{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about-section .about-area .about-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about-text{
+    margin-bottom: 80px;
+}
 
-
-
+.about-text h3{
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    margin-top: 50px;
+    color: white;
+}
+.about-text p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    line-height: 20px;
+    opacity: 70%;
+}
+.about-area hr{
+    color: white;
+    opacity: 20%;
+    width: 100%;
+    margin-bottom: 80px;
+}
+.about-card{
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+    margin-bottom: 120px;
+}
+.about-card .cards{
+    display: grid;
+    place-items: center;
+}
+.about-card .cards h4{
+    font-size: 48px;
+    color: #00FF88;
+    margin-bottom: 16px;
+}
+.about-card .cards p{
+    font-size: 16px;
+    opacity: 70%;
+    color: white;
+}
