@@ -229,7 +229,7 @@ header .nav-item ul li a{
 /* About section End */
 /* Why Choose Section Start */
 .choose-section{
-    padding-top: 120px;
+  padding-top: 120px;
   min-height: 1125px;
   background-color: #230E3D;
 }
@@ -298,3 +298,60 @@ header .nav-item ul li a{
     opacity: 60%;
     color: #ffffff;
 }
+
+/* Card section end  */
+
+/*Featured Section Start */
+.featured-section{
+    padding-top: 120px;
+    min-height: 1280px;
+    background-color: #1A0B2E;
+}
+.featured-section h3{
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 40px;
+}
+.featured-section .featured-container{
+    max-width: 1200px;
+    
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.featured-container .featured-card{
+    width: 380px;
+    height: 440px;
+    border-radius: 20px;
+    overflow: hidden;
+    background: rgba(53, 17, 101, 0.4);
+}
+.featured-card h4{
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 24px 24px 12px 24px;
+}
+.featured-card p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    opacity: 60%;
+    margin: 0 24px 12px 24px;
+}
+.featured-card .video-time{
+    display: flex;
+    gap: 6px;
+    margin-left: 24px;
+}
+.video-time img{
+    width: 20px;
+    height: 20px;
+}
+.video-time p{
+    margin: 0;
+}
+
+/* Features Section End */
