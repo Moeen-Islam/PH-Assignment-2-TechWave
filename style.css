@@ -163,6 +163,7 @@ header .nav-item ul li a{
 .about-section{
     min-height: 650px;
     background-color: #1A0B2E;
+    
 }
 .about-section .about-area{
     max-width: 1200px;
@@ -223,4 +224,77 @@ header .nav-item ul li a{
     font-size: 16px;
     opacity: 70%;
     color: white;
+}
+
+/* About section End */
+/* Why Choose Section Start */
+.choose-section{
+    padding-top: 120px;
+  min-height: 1125px;
+  background-color: #230E3D;
+}
+.choose-section .choose-container{
+    max-width: 1200px;
+    margin: auto;
+}
+.choose-container h2{
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 48px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.choose-container .choose-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto auto;
+    gap: 30px;
+    grid-template-areas: 
+    "premium mobile mobile"
+    "premium global global"
+    "exclusive exclusive rich";
+}
+.card-premium{
+    grid-area: premium;
+}
+.card-mobile{
+    grid-area: mobile;
+}
+.card-global{
+    grid-area: global;
+}
+.card-exclusive{
+    grid-area: exclusive;
+}
+.card-rich{
+    grid-area: rich;
+}
+.card{
+    background: rgba(53, 17, 101, 0.4);
+    /* background: linear-gradient(135deg, #F7E93F,#FB09B4,#9100F8); */
+    border-radius: 40px;
+    padding: 40px;
+    min-height: 160px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.card img{
+  
+    width: 60px;
+    height: auto;
+    margin-bottom: 16px;
+}
+.card h3{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    color: #ffffff;
+}
+.card p{
+    font-size: 16px;
+    line-height: 24px;
+    opacity: 60%;
+    color: #ffffff;
 }
