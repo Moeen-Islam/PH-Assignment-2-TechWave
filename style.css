@@ -13,7 +13,7 @@ html, body {
   width: 100%;
 }
 body{
-    max-width: 1600px;
+    max-width: 100%;
     margin: 0 auto;
 }
 
@@ -333,6 +333,8 @@ header .nav-item ul li a{
     height: 440px;
     border-radius: 20px;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
     background: rgba(53, 17, 101, 0.4);
 }
 .featured-card h4{
@@ -624,21 +626,25 @@ footer{
         margin-bottom: 0px;
     }
     .featured-container .featured-card{
-        width: 500px;
-        height: 450px;
+        width: 400px;
+        height: 460px;
         margin: 24px 20px 0px 20px;
     }
     .featured-container .featured-card iframe{
-        width: 500px;
+        width: 400px;
         height: 250px;
     }
     .featured-card h4{
         font-size: 20px;
-        margin-bottom: 20px;
+        margin-bottom: 15px;
     }
     .featured-card p{
-        margin-bottom: 30px;
+        margin-bottom: 20px;
         text-align: left;
+    }
+    .featured-container .featured-card .video-time{
+        margin-top: auto;
+        margin-bottom: 5px;
     }
     .host-section{
          padding-bottom: 40px;
