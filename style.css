@@ -636,7 +636,7 @@ footer{
         display: flex;
         flex-wrap: wrap;
         align-items: center;
-        gap: 30px;
+        gap: 40px;
     }
     .about-card .cards h4{
         font-size: 46px;
